@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="nav_app_bar_navigate_up_description">overriden</string>
+
+    <color name="mtrl_scrim_color">#FF123123</color>
+
+    <dimen name="abc_control_corner_material">100500dp</dimen>
+
+</resources>
