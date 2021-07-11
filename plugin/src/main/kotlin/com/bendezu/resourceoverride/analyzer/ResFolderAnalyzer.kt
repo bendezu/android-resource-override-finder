@@ -29,7 +29,7 @@ class ResFolderAnalyzer(private val config: Configuration) {
                 return@find pathStr.endsWith(".xml")
                         && !pathStr.contains("/build/")
                         && pathStr.contains("/res/")
-            },
+            }
         )
     }
 
