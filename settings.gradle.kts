@@ -5,7 +5,7 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Overrides"
+rootProject.name = "android-resource-override-finder"
 include(":sample-app")
 includeBuild("plugin")
  
