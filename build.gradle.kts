@@ -1,5 +1,6 @@
 plugins {
-    id("com.bendezu.resourceoverride")
+    id("com.github.bendezu.resourceoverride") // Uncomment to use local plugin
+//    id("com.github.bendezu.resourceoverride") version "1.0" // Uncomment to test published plugin
 }
 
 buildscript {
@@ -20,7 +21,6 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        gradlePluginPortal()
     }
 }
 
